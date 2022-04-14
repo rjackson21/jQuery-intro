@@ -6,5 +6,9 @@ $(document).ready(function() {
     },
     function(){
         $(this).hide()
+
+    })
+    $("button").click(function() {
+        alert("I'm alerting you")
     })
 })
